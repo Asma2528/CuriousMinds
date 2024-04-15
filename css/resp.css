@@ -1,0 +1,108 @@
+@media only screen and (max-width:760px)
+{
+    .firstSection
+    {
+        height:70vh;
+    }
+    .navbar
+    {
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 300px; 
+    }
+    .logo img
+    {
+        width:60%;
+        height:auto;
+    }
+    .nav-list
+    {
+        flex-direction: column;
+    }
+    .nav-list li
+    {
+        padding:10px 0px;
+    }
+    .right-nav
+    {
+        display:flex;
+        flex-direction: column;
+    }
+    #search
+    {
+        width:120px;
+        display: inline-block;
+        margin:10px auto;
+    }
+    .small
+    {
+        width:66px;
+        display: inline-block;
+        margin:10px auto;
+        padding:2px 3px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .h-nav-resp
+    {
+        height: 72px;
+    } 
+    .burger
+    {
+        display:block;
+    }
+    .sect{
+        flex-direction: column-reverse;
+    }
+    #sect-2
+    {
+        flex-direction: column-reverse;
+    }
+    .side-img
+    {
+        width:40%;
+    }
+    .side-img img{
+        width:100%;
+    }
+    .content 
+    {
+        padding:17px;
+    }
+    .content h2,.content p{
+        text-align: center;
+    }
+    .myButton{
+        padding:0px 10px;
+    }
+    .box-main{
+        padding:30px 10px;
+    }
+    .sect
+    {
+        padding:10px 0px;
+    }
+    .contact-form 
+    {
+        padding:10px 0px;
+    }
+    .contact-form  form{
+        width: 70%;
+    }
+} 
+
+@media only screen and (max-width:400px)
+{
+    .side-img{
+        display: inline-block;
+        width: 70%;
+    }
+    .firstSection
+    {
+        height:600px;
+    }
+    .myButton {
+        padding: 0px 2px;
+    }
+}

@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*
+{
+    margin: 0px;
+    padding:0px;
+    font-family: Ubuntu;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+}
+
+.nav-list
+{
+    width: 70%; 
+    display: flex; 
+    align-items: center;
+}
+
+.nav-list li
+{
+    list-style: none;
+    padding:0px 15px;
+}
+
+.nav-list li a
+{
+    text-decoration: none;
+    color:white;
+    font-family: Ubuntu;
+}
+
+.nav-list li a:hover
+{
+    color:blue;
+}
+
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img
+{
+    width:25%;
+    height:7%;
+    border: 2px solid blue;
+    border-radius:50px;
+    margin:7px;
+}
+
+.right-nav
+{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding:3px 5px;
+    font-family: Ubuntu;
+    border:none;
+    outline:none;
+    border-radius:7px;
+    background: none;
+    border:2px solid rgb(228, 228, 246);
+    color:white;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection
+{
+    height:85vh;
+}
+
+.box-main
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    color:white;
+    padding:0px 100px;
+    height:97%;
+}
+
+.myButton
+{
+    padding:10px 0px;
+}
+
+.heading, .para
+{
+    padding:9px 0px;
+}
+
+.btn{
+    font-family: Inter;
+    padding:7px 12px;
+    border-radius: 10px;
+    border:3px solid blue;
+    outline: none;
+    background: none;
+    color:white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color:rgb(166, 164, 164)
+}
+
+.small
+{
+    padding:4px 10px;
+    border:2px solid blue;
+}
+
+.large
+{
+    margin:0px 4px;
+}
+
+.bodyContent, .myButton{
+    padding:10px 90px;
+}
+
+.sect
+{
+    display:flex;
+    align-items: center;
+    margin: auto;
+    justify-content:space-evenly;
+    padding:15px;
+}
+
+
+.side-img img
+{
+    width: 90%;
+    border:2px solid blue;
+    border-radius: 10px;
+}
+
+.content{
+    width:80%;
+    padding:7px;
+}
+
+.side-img{
+    display: inline-block;
+    width: 25%;
+}
+
+#sect-2
+{
+    flex-direction: row-reverse;
+    background-color: #d8d8d8;
+}
+
+.contact-form 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:34px;
+    background-color: #e5e9fc;
+}
+
+.contact-form  form{
+    width: 40%;
+}
+
+.contact-form input, .contact-form textarea{
+    width:100%;
+    padding:0.5rem;
+    font-family:Ubuntu;
+    font-size:1rem;
+    border-radius: 10px;
+    border:2px solid blue;
+    margin:8px;
+}
+
+label{
+    font-family:Ubuntu;
+    font-size:1rem;
+}
+
+input:text
+{
+    font-family:Ubuntu;
+    font-size:1rem;
+    border:2px solid blue;
+}
+
+
+.contact-btn{
+    background-color:rgb(0, 7, 84);
+    margin-left:10px;
+}
+
+.text-footer{
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+
+.burger
+{
+    display:none;
+    position:absolute;
+    cursor:pointer;
+    right:5%;
+    top:15px;
+}
+
+.line{
+    width:30px;
+    background-color: white;
+    height:3px;
+    margin:5px 5px;
+}
+
+/* Media Queries */
+@media only screen and (max-width:1012px)
+{
+    .firstSection{
+        height:90vh;
+    }
+
+    .bodyContent
+    {
+        padding: 10px 20px;
+    }
+}
+

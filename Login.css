@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');   
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: url('login_bg.jpg') no-repeat center center fixed;
+    background-size: cover ;
+}
+
+
+.logindiv
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15%;
+}
+
+.container
+{
+    color:white;
+    width:30%;
+}
+
+.container h1
+{
+    font-size:1.9rem;
+    margin-bottom:30px;
+    font-family: Karla;
+    border-bottom:2px solid purple;
+    display:inline-block;
+    width:100px;
+    padding:5px;
+}
+
+.box{
+border-bottom:2px solid purple;
+width:340px;
+}
+
+input
+{
+    color:white;
+    font-family: Karla;
+    padding:5px 5px;
+    font-size:1rem;
+    margin:8px 8px;
+    border-radius: 10px;
+    width:50%;
+    border:none;
+    outline:none;
+    background: none;
+}
+
+#btn
+{
+    font-family: Karla;
+    background: none;
+    border:2px solid purple;
+    padding:7px 10px;
+    font-style: bold;
+    border-radius: 10px;
+    margin:20px 2px;
+    width:100px;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn:hover
+{
+    color:purple;
+    background-color:white;
+    font-style:bold;
+    opacity:0.8;
+}
+
+@media only screen and (max-width:550px)
+{
+    .container {
+        width: 60%;
+    }
+}
