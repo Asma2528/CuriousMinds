@@ -1,2 +1,3 @@
 # CuriousMinds
-My second website created using html, css and javascript
+Created using html, css and javascript
+https://asma2528.github.io/CuriousMinds/
